@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Instagram, Twitter } from "lucide-react"; // Optional: install lucide-react or use SVGs
+import { Facebook, Instagram, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -34,7 +34,10 @@ const Footer = () => {
           <h3 className="text-lg mb-3" style={{ fontFamily: "font2" }}>
             Explore
           </h3>
-          <ul className="space-y-2 text-sm text-gray-300" style={{ fontFamily: "font1" }}>
+          <ul
+            className="space-y-2 text-sm text-gray-300"
+            style={{ fontFamily: "font1" }}
+          >
             <li>
               <a href="#products" className="hover:text-white">
                 Products
@@ -52,7 +55,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="#contact" className="hover:text-white">
-                Brand Story 
+                Brand Story
               </a>
             </li>
             <li>
@@ -63,58 +66,59 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div>
-          <h3 className="text-lg  mb-3" style={{fontFamily:"font2"}}>Contact</h3>
+          <h3 className="text-lg  mb-3" style={{ fontFamily: "font2" }}>
+            Contact
+          </h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <ul className="space-y-2 text-sm text-gray-300" style={{ fontFamily: "font1" }}>
-                    <li>
-                    <a href="#contact" className="hover:text-white">
-                      Contact Us
-                    </a>
-                    </li>
-                    <li>
-                    <a href="#faq" className="hover:text-white">
-                      FAQs
-                    </a>
-                    </li>
-                    <li>
-                    <a href="#shipping" className="hover:text-white">
-                      Shipping & Returns
-                    </a>
-                    </li>
-                    <li>
-                    <a href="#care" className="hover:text-white">
-                      Care Instructions
-                    </a>
-                    </li>
-                    <li>
-                    <a href="#privacy" className="hover:text-white">
-                      Privacy Policy
-                    </a>
-                    </li>
-                  </ul>
+            <ul
+              className="space-y-2 text-sm text-gray-300"
+              style={{ fontFamily: "font1" }}
+            >
+              <li>
+                <a href="#contact" className="hover:text-white">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="#faq" className="hover:text-white">
+                  FAQs
+                </a>
+              </li>
+              <li>
+                <a href="#shipping" className="hover:text-white">
+                  Shipping & Returns
+                </a>
+              </li>
+              <li>
+                <a href="#care" className="hover:text-white">
+                  Care Instructions
+                </a>
+              </li>
+              <li>
+                <a href="#privacy" className="hover:text-white">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
           </ul>
         </div>
 
-        {/* Social Media */}
         <div>
-          <h3 className="text-lg  mb-3" style={{fontFamily:"font2"}}>Contact</h3>
-            <ul className="space-y-2 text-sm text-gray-300" style={{ fontFamily: "font1" }}>
-              <li>
-          PISTU Studio, Koregaon Park, Pune 411001, India
-              </li>
-              <li>
-          +91 98765 43210
-              </li>
-              <li>
-          hello@pistu.com
-              </li>
-            </ul>
+          <h3 className="text-lg  mb-3" style={{ fontFamily: "font2" }}>
+            Contact
+          </h3>
+          <ul
+            className="space-y-2 text-sm text-gray-300"
+            style={{ fontFamily: "font1" }}
+          >
+            <li>PISTU Studio, Koregaon Park, Pune 411001, India</li>
+            <li>+91 98765 43210</li>
+            <li>hello@pistu.com</li>
+          </ul>
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="border-t border-gray-700 pt-6 text-sm text-gray-500 text-center">
         © 2025 PISTU - Pigment Art and Design Studio. All rights reserved.
       </div>
