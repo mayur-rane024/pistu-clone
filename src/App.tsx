@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 
 import img from "./assets/wall.jpg";
 import { ArrowDown } from "lucide-react";
-
+import Footer from "./Footer.tsx";
 function App() {
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden">
@@ -169,6 +169,7 @@ function App() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }
