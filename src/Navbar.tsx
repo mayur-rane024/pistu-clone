@@ -10,7 +10,7 @@ function Navbar() {
     }
   })
   return (
-    <nav className="bg-transparent h-20 text-[#3A2A1B] outline-none border-none bg-opacity-70 fixed top-0 w-screen z-10 inset-y-0">
+    <nav className="bg-transparent transition-all duration-200 h-20 text-[#3A2A1B] outline-none border-none bg-opacity-70 fixed top-0 w-screen z-10 inset-y-0">
       <div className="container mx-auto px-14 flex justify-between items-center">
         {/* Left side - Logo */}
         <div className="flex items-start gap-2">
