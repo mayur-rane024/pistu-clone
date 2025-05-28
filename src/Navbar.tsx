@@ -1,6 +1,14 @@
 import { FiShoppingBag } from "react-icons/fi";
 
 function Navbar() {
+  window.addEventListener("scroll", () => {
+    const nav = document.querySelector("nav");
+    if (window.scrollY > 0) {
+      nav?.classList.add("bg-white", "shadow-md");
+    } else {
+      nav?.classList.remove("bg-white", "shadow-md");
+    }
+  })
   return (
     <nav className="bg-transparent h-20 text-[#3A2A1B] outline-none border-none bg-opacity-70 fixed top-0 w-screen z-10 inset-y-0">
       <div className="container mx-auto px-14 flex justify-between items-center">
@@ -38,7 +46,7 @@ function Navbar() {
             </li>
           </ul>
 
-          <FiShoppingBag className="text-2xl cursor-pointer hover:text-[#b89242]" />
+          <FiShoppingBag className="text-2xl cursor-pointer hover:text-[#b89242]" id="#"/>
         </div>
       </div>
 
