@@ -2,13 +2,13 @@ import { FiShoppingBag } from "react-icons/fi";
 
 function Navbar() {
   return (
-    <nav className="bg-white h-20 text-[#4B3F3F] shadow-sm py-4 bg-opacity-70">
-      <div className="container mx-auto flex justify-between items-center px-4 py-3">
+    <nav className="bg-transparent h-20 text-[#3A2A1B] outline-none border-none bg-opacity-70 fixed top-0 w-screen z-10 inset-y-0">
+      <div className="container mx-auto px-14 flex justify-between items-center">
         {/* Left side - Logo */}
         <div className="flex items-start gap-2">
           {/* <img src="/logo.png" alt="PISTU Logo" className="h-8" /> */}
-          <h1  className="text-xl tracking-wider ]">
-            PISTU<sup>®</sup>
+          <h1  className="text-xl tracking-wider ">
+            <img src="./logo.png" className="h-16  mt-10" alt="" />
           </h1>
         </div>
 
@@ -38,10 +38,10 @@ function Navbar() {
             </li>
           </ul>
 
-          {/* Cart Icon */}
-          <FiShoppingBag className="text-2xl cursor-pointer" />
+          <FiShoppingBag className="text-2xl cursor-pointer hover:text-[#b89242]" />
         </div>
       </div>
+
     </nav>
   );
 }
