@@ -83,6 +83,92 @@ function App() {
           </button>
         </div>
       </section>
+      <section
+        className="min-h-screen w-full px-6 md:px-16 py-12 bg-gray-50"
+        id="products"
+      >
+        {/* Section Header */}
+        <div className="text-center mb-12 mt-20">
+          <h1
+            className="text-4xl text-gray-800 mb-4"
+            style={{ fontFamily: "font2" }}
+          >
+            Featured Collection
+          </h1>
+          <p
+            className="text-gray-600 text-md max-w-2xl mx-auto"
+            style={{ fontFamily: "font1" }}
+          >
+            Discover our handcrafted essentials, where form meets function in
+            perfect harmony.
+          </p>
+        </div>
+
+        {/* Product Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className=" transition overflow-hidden">
+            <img
+              src={`./feature/feature-1.avif`}
+              alt="Oxford Leather Shoes"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-xl text-gray-800 mb-2" style={{ fontFamily: "font2" }}>
+                Oxford Leather Shoes
+              </h3>
+              <p className="text-gray-600 text-sm" style={{ fontFamily: "font1" }}>
+                Hand-stitched premium leather Oxford shoes crafted with
+                traditional Indian artisanship.
+              </p>
+            </div>
+          </div>
+          <div className=" transition overflow-hidden">
+            <img
+              src={`./feature/feature-2.avif`}
+              alt="Oxford Leather Shoes"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-xl text-gray-800 mb-2" style={{ fontFamily: "font2" }}>
+                Traditional Wallet
+              </h3>
+              <p className="text-gray-600 text-sm" style={{ fontFamily: "font1" }}>
+                Fusion of Indian craftsmanship with Italian leather, featuring hand-painted Warli art.
+              </p>
+            </div>
+          </div>
+          <div className=" transition overflow-hidden">
+            <img
+              src={`./feature/feature-3.avif`}
+              alt="Oxford Leather Shoes"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-xl text-gray-800 mb-2" style={{ fontFamily: "font2" }}>
+                Leather Belt
+              </h3>
+              <p className="text-gray-600 text-sm" style={{ fontFamily: "font1" }}>
+                Classic design with traditional Indian motifs and premium brass buckle.
+              </p>
+            </div>
+          </div>
+          <div className=" transition overflow-hidden">
+            <img
+              src={`./feature/feature-4.avif`}
+              alt="Oxford Leather Shoes"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-xl text-gray-800 mb-2" style={{ fontFamily: "font2" }}>
+                Cable Organizer
+              </h3>
+              <p className="text-gray-600 text-sm" style={{ fontFamily: "font1" }} >
+                Modern functionality meets traditional Indian leather craftsmanship.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
