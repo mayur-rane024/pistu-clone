@@ -1,10 +1,5 @@
 import Navbar from "./Navbar";
-import Footer from "./Footer";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Products from "./pages/Products";
 import img from "./assets/wall.jpg";
 import { ArrowDown } from "lucide-react";
 
@@ -83,8 +78,8 @@ function App() {
             quality of our materials, and our unwavering commitment to
             excellence.
           </p>
-          <button className="mt-4 px-6 py-3 bg-black text-white hover:bg-[#c9a173] transition rounded shadow-md">
-            Learn More
+          <button className="mt-4 px-6 py-3 bg-transparent text-[#3A2A1B] border-[#3A2A1B] border-1 hover:bg-[#c9a173] transition shadow-md">
+            Our Story
           </button>
         </div>
       </section>
