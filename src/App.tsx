@@ -26,7 +26,7 @@ function App() {
 
           {/* Centered Content */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-            <h1 className="text-white text-5xl md:text-7xl font-serif font-bold mb-4">
+            <h1 className="text-white text-5xl md:text-7xl mb-4" style={{fontFamily:'font2'}}>
               Leather <span className="px-1">|</span> Craft{" "}
               <span className="px-2">|</span> Accessories
             </h1>
