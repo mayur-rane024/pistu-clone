@@ -84,11 +84,11 @@ function App() {
         </div>
       </section>
       <section
-        className="min-h-screen w-full px-6 md:px-16 py-12 bg-gray-50"
+        className="min-h-screen w-full px-6 md:px-16 py-12 bg-[#fff9f1]"
         id="products"
       >
         {/* Section Header */}
-        <div className="text-center mb-12 mt-20">
+        <div className="text-center bg-[#fff9f1] mb-20 ">
           <h1
             className="text-4xl text-gray-800 mb-4"
             style={{ fontFamily: "font2" }}
@@ -110,7 +110,7 @@ function App() {
             <img
               src={`./feature/feature-1.avif`}
               alt="Oxford Leather Shoes"
-              className="w-full h-48 object-cover"
+              className="w-72 h-72 object-cover"
             />
             <div className="p-4">
               <h3 className="text-xl text-gray-800 mb-2" style={{ fontFamily: "font2" }}>
@@ -126,7 +126,7 @@ function App() {
             <img
               src={`./feature/feature-2.avif`}
               alt="Oxford Leather Shoes"
-              className="w-full h-48 object-cover"
+              className="w-72 h-72 object-cover"
             />
             <div className="p-4">
               <h3 className="text-xl text-gray-800 mb-2" style={{ fontFamily: "font2" }}>
@@ -141,7 +141,7 @@ function App() {
             <img
               src={`./feature/feature-3.avif`}
               alt="Oxford Leather Shoes"
-              className="w-full h-48 object-cover"
+              className="w-72 h-72 object-cover"
             />
             <div className="p-4">
               <h3 className="text-xl text-gray-800 mb-2" style={{ fontFamily: "font2" }}>
@@ -156,7 +156,7 @@ function App() {
             <img
               src={`./feature/feature-4.avif`}
               alt="Oxford Leather Shoes"
-              className="w-full h-48 object-cover"
+              className="w-72 h-72 object-cover"
             />
             <div className="p-4">
               <h3 className="text-xl text-gray-800 mb-2" style={{ fontFamily: "font2" }}>
