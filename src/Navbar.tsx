@@ -4,9 +4,9 @@ function Navbar() {
   window.addEventListener("scroll", () => {
     const nav = document.querySelector("nav");
     if (window.scrollY > 0) {
-      nav?.classList.add("bg-white", "shadow-md");
+      nav?.classList.add("bg-white");
     } else {
-      nav?.classList.remove("bg-white", "shadow-md");
+      nav?.classList.remove("bg-white");
     }
   })
   return (
